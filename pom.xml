@@ -4,7 +4,7 @@
 
     <groupId>com.github.xuzw</groupId>
     <artifactId>relationshipchain</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
 
     <name>relationshipchain</name>
@@ -50,4 +50,11 @@
             <version>3.1.2</version>
         </dependency>
     </dependencies>
+
+    <repositories>
+        <repository>
+            <id>xuzw-maven-repo</id>
+            <url>https://raw.githubusercontent.com/xuzw/maven-repo/master/repository</url>
+        </repository>
+    </repositories>
 </project>
